@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/explicit-web" element={<HomePage />} />
       </Routes>
       <Footer />
       <ToastContainer />
