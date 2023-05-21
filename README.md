@@ -22,6 +22,6 @@ npm install
 npm run dev
 ```
 
-## Authors
+## Author
 
-[@prajeshElEvEn](https://github.com/prajeshElEvEn)
+[@prajesh](https://github.com/prajeshElEvEn)
