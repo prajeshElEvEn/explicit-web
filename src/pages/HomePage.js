@@ -1,10 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Card from '../components/Card'
 import ScanImg from '../assets/images/scan.png'
 import ReportImg from '../assets/images/report.png'
 import DataImg from '../assets/images/data.png'
+import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
+import { db } from '../firebase/config'
+import { toast } from 'react-toastify'
 
 const HomePage = () => {
+    const [videoLink, setVideoLink] = useState('')
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        if (!videoLink) {
+            toast.error('Please enter a valid YouTube video URL')
+        } else {
+            await addDoc(collection(db, 'videos'), {
+                link: videoLink,
+                reported: false,
+                timestamp: serverTimestamp()
+            })
+            setVideoLink('')
+            toast.success('Video submitted successfully')
+        }
+    }
+
     return (
         <div className="container">
             <div className="box">
@@ -28,9 +48,14 @@ const HomePage = () => {
                             <input
                                 type="url"
                                 placeholder='Enter YouTube video URL'
+                                value={videoLink}
+                                onChange={(e) => setVideoLink(e.target.value)}
                             />
                         </div>
-                        <button className='btn'>
+                        <button
+                            className='btn'
+                            onClick={handleSubmit}
+                        >
                             Submit
                         </button>
                     </div>
