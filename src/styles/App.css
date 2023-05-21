@@ -143,4 +143,26 @@
 .card .right .description {
   font-size: 1rem;
   color: #969696;
+}
+
+@media screen and (max-width: 786px) {
+  .container .row {
+    width: 90%;
+  }
+  .container .box {
+    width: 90%;
+  }
+  .container .card {
+    flex-direction: column;
+  }
+  .container .card .right {
+    width: 100%;
+    padding: 0;
+  }
+  .container .card .right .title {
+    font-size: 1.2rem;
+  }
+  .container .card .right .description {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=App.css.map */
