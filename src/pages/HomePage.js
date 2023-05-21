@@ -21,7 +21,7 @@ const HomePage = () => {
                 </div>
                 <form>
                     <div className="text">
-                        🔗 Submit a explicit YouTube video URL
+                        🔗 Submit an explicit YouTube video URL
                     </div>
                     <div className="form-field">
                         <div className="input">
