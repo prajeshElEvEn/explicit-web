@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/explicit-web/static/css/main.ef3c288c.css",
+    "main.js": "/explicit-web/static/js/main.f60b1291.js",
+    "static/media/report.png": "/explicit-web/static/media/report.182c4ad9c10f4be826e8.png",
+    "static/media/scan.png": "/explicit-web/static/media/scan.7da075b23f47e2a0fdd0.png",
+    "static/media/data.png": "/explicit-web/static/media/data.5bb47c6547f46c1f7eda.png",
+    "index.html": "/explicit-web/index.html",
+    "main.ef3c288c.css.map": "/explicit-web/static/css/main.ef3c288c.css.map",
+    "main.f60b1291.js.map": "/explicit-web/static/js/main.f60b1291.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef3c288c.css",
+    "static/js/main.f60b1291.js"
+  ]
+}
