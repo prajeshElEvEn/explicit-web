@@ -1,1 +1,102 @@
 
+.container
+    width: 100vw
+    // border-bottom: 1px solid #d6d6d6
+    .row
+        width: 70%
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 1rem 0
+        .left
+            .logo
+                font-size: 1.5rem
+                font-weight: 600
+                color: #333333
+                text-decoration: none
+                &:hover
+                    color: #0e0e0e
+            .text
+                a
+                    text-decoration: none
+                    color: #333333
+                    font-weight: 600
+                    &:hover
+                        color: #0e0e0e
+        .right
+            .btn
+                display: flex
+                // justify-content: center
+                align-items: center
+                gap: 0.5rem
+                text-decoration: none
+                padding: 0.5rem 1rem
+                border-radius: 0.5rem
+                color: #333333
+                font-weight: 600
+                border: 1px solid #d6d6d6
+                transition: all 0.3s ease
+                &:hover
+                    border: 1px solid #b3b3b3
+
+    .box
+        width: 70%
+        margin: 0 auto
+        padding: 4rem 0
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 4rem
+        .header
+            text-align: center
+            display: flex
+            flex-direction: column
+            align-items: center
+            gap: 1rem
+            .sub-title
+                color: #969696
+                font-size: 1.2rem
+            .title
+                font-size: 2.5rem
+                font-weight: 600
+            .description
+                font-size: 1.2rem
+        form
+            // width: 100%
+            display: flex
+            flex-direction: column
+            gap: 0.5rem
+            // color: #969696
+            .form-field
+                display: flex
+                gap: 1rem
+                .input
+                    width: 100%
+                    padding: 0.5rem 1rem
+                    border-radius: 0.5rem
+                    border: 1px solid #d6d6d6
+                    input
+                        width: 100%
+                        border: none
+                        outline: none
+                        font-size: 1rem
+                        font-family: 'Poppins', sans-serif
+                        color: #333333
+                        background-color: transparent
+                        &::placeholder
+                            color: #969696
+                .btn
+                    // width: 100%
+                    padding: 0.5rem 1rem
+                    border-radius: 0.5rem
+                    border: none
+                    outline: none
+                    font-size: 1rem
+                    font-weight: 600
+                    font-family: 'Poppins', sans-serif
+                    color: #ffffff
+                    background-color: #333333
+                    transition: all 0.3s ease
+                    &:hover
+                        background-color: #0e0e0e

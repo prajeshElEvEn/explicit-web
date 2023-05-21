@@ -1,1 +1,115 @@
-/*# sourceMappingURL=App.css.map */
+.container {
+  width: 100vw;
+}
+.container .row {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.container .row .left .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333333;
+  text-decoration: none;
+}
+.container .row .left .logo:hover {
+  color: #0e0e0e;
+}
+.container .row .left .text a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 600;
+}
+.container .row .left .text a:hover {
+  color: #0e0e0e;
+}
+.container .row .right .btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #333333;
+  font-weight: 600;
+  border: 1px solid #d6d6d6;
+  transition: all 0.3s ease;
+}
+.container .row .right .btn:hover {
+  border: 1px solid #b3b3b3;
+}
+.container .box {
+  width: 70%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+.container .box .header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.container .box .header .sub-title {
+  color: #969696;
+  font-size: 1.2rem;
+}
+.container .box .header .title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.container .box .header .description {
+  font-size: 1.2rem;
+}
+.container .box form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.container .box form .form-field {
+  display: flex;
+  gap: 1rem;
+}
+.container .box form .form-field .input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d6d6d6;
+}
+.container .box form .form-field .input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+  background-color: transparent;
+}
+.container .box form .form-field .input input::-moz-placeholder {
+  color: #969696;
+}
+.container .box form .form-field .input input::placeholder {
+  color: #969696;
+}
+.container .box form .form-field .btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  background-color: #333333;
+  transition: all 0.3s ease;
+}
+.container .box form .form-field .btn:hover {
+  background-color: #0e0e0e;
+}/*# sourceMappingURL=App.css.map */
