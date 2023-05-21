@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../components/Card'
 
 const HomePage = () => {
     return (
@@ -31,6 +32,25 @@ const HomePage = () => {
                         </button>
                     </div>
                 </form>
+                <div className="main">
+                    <div className="title">
+                        How it works?
+                    </div>
+                    <Card
+                        title={"Collecting Explicit YouTube Links"}
+                        description={"The Explicit platform utilizes various mechanisms to identify explicit videos on YouTube. These mechanisms may include user submissions, automated content scanning, and manual review processes. Users can submit explicit video links they come across, or the system may proactively detect potentially explicit content using advanced algorithms and filters."}
+                    />
+                    <Card
+                        title={"Saving Links in a Dataset"}
+                        description={"Once explicit video links are collected, they are securely stored in a dataset. The dataset serves as a repository of explicit video information, which may include details like video URLs, metadata, timestamps, and relevant user-generated reports. This dataset acts as a centralized source of information for further analysis and reporting."}
+                    />
+                    <Card
+                        title={"Reporting Explicit Videos:"}
+                        description={"The Explicit platform empowers users to report explicit videos found on YouTube. Users can browse the dataset, verify the content, and submit reports based on their observations. These reports can include specific details about the explicit nature of the video, violations of community guidelines, or any other relevant information. The reported videos are then flagged and reported to the appropriate channels or authorities responsible for enforcing YouTube's policies."}
+                    />
+
+
+                </div>
             </div>
         </div>
     )

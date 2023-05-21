@@ -1,8 +1,21 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({
+    title,
+    description,
+}) => {
     return (
-        <div>Card</div>
+        <div className="card">
+            <img src="" alt="" />
+            <div className="right">
+                <div className="title">
+                    {title}
+                </div>
+                <div className="description">
+                    {description}
+                </div>
+            </div>
+        </div>
     )
 }
 
