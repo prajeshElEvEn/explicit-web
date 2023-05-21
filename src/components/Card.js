@@ -1,12 +1,13 @@
 import React from 'react'
 
 const Card = ({
+    image,
     title,
     description,
 }) => {
     return (
         <div className="card">
-            <img src="" alt="" />
+            <img src={image} alt="" />
             <div className="right">
                 <div className="title">
                     {title}

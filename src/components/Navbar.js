@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="row">
                 <div className="left">
                     <Link to={'/'} className="logo">
-                        Explicit
+                        👾 Explicit
                     </Link>
                 </div>
                 <div className="right">
